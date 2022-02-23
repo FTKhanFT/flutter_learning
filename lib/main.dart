@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test_project/aboutPage.dart';
+import 'package:test_project/card_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: AboutPage(),
+      home: CardPage(),
     );
   }
 }
